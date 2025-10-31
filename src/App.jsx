@@ -10,10 +10,11 @@ export default function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/message")
-      .then(r => r.json())
-      .then(d => setMessage(d.message))
-      .catch(() => setMessage("Không thể kết nối server"));
+    fetch("https://giftcard-security.onrender.com/api/message")
+  .then(res => res.json())
+  .then(data => setMessage(data.message))
+  .catch(err => setMessage("Không thể kết nối server"));
+
   }, []);
 
   return (
