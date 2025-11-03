@@ -11,7 +11,7 @@ html, body, #root {
 
 /* 🌈 Nền gradient động toàn diện */
 body {
-  background: linear-gradient(-45deg, #0ea5e9, #1e3a8a, #9333ea, #14b8a6);
+  background: linear-gradient(-45deg, #1e3a8a, #006d4d, #0a2f55, #006d4d); /* Đổi màu tím thành xanh đậm và xanh lá đậm */
   background-size: 400% 400%;
   background-attachment: fixed;
   animation: gradientMove 10s ease infinite;

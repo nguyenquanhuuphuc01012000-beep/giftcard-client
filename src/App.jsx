@@ -96,24 +96,24 @@ function App() {
         {/* 🌟 SẢN PHẨM & DỊCH VỤ NỔI BẬT */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-cyan-300 text-center mb-10">
-            Sản Phẩm & Dịch Vụ Nổi Bật
+            Giới thiệu sản phẩm
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 img: "/images/product1.jpg",
-                title: "Gift Card Bảo Mật Cá Nhân",
-                desc: "Thẻ quà tặng giúp bạn truy cập khoá học về an toàn mạng.",
+                title: "Security Calendar",
+                desc: "Quà tặng giúp bạn truy cập kiến thức về an toàn mạng.",
               },
               {
                 img: "/images/product2.jpg",
-                title: "Khóa Học An Ninh Mạng Cơ Bản",
+                title: "Nội Dung",
                 desc: "Khám phá cách bảo vệ dữ liệu cá nhân trong thời đại số.",
               },
               {
                 img: "/images/product3.jpg",
-                title: "Gói Premium Tặng Người Thân",
+                title: "Giải Pháp phòng tránh",
                 desc: "Món quà ý nghĩa giúp nâng cao kiến thức bảo mật cho người thân.",
               },
             ].map((item, i) => (

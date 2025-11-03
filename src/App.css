@@ -18,7 +18,7 @@ body {
 }
 
 body {
-  background: linear-gradient(-45deg, #0ea5e9, #1e3a8a, #9333ea, #14b8a6);
+  background: linear-gradient(-45deg, #1e3a8a, #006d4d, #0a2f55, #006d4d); /* Thay màu tím bằng xanh đậm và xanh lá */
   background-size: 400% 400%;
   background-attachment: fixed;
   animation: gradientMove 10s ease infinite;
@@ -181,7 +181,6 @@ body::after {
 .triangle:nth-child(5) { top: 50%; left: 85%; animation-delay: 13s; }
 
 /* ⚙️ Thanh cuộn */
-
 body::-webkit-scrollbar {
   width: 8px;
 }
