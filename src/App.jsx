@@ -37,6 +37,12 @@ function App() {
 
   return (
     <div className="w-full min-h-screen flex flex-col items-center justify-start text-white overflow-x-hidden relative">
+      {/* 🌟 Dòng chữ chạy */}
+      <div className="marquee-container">
+        <div className="marquee-content">
+          Ngày 21/10, Thủ tướng Chính phủ Phạm Minh Chính ký ban hành Chỉ thị số 32/CT-TTg yêu cầu các bộ ngành, địa phương nâng cao năng lực bảo vệ bí mật nhà nước trong tình hình mới. Là lực lượng chuyên trách trong bảo vệ thông tin bí mật nhà nước, Ban Cơ yếu Chính phủ được giao các nhiệm vụ đặc biệt quan trọng. Trong đó, tham mưu xây dựng và phát triển hệ thống thông tin mật mã quốc gia. Giúp Bộ trưởng Bộ Quốc phòng thực hiện quản lý nhà nước đối với hoạt động nghiên cứu, sản xuất, cung cấp và sử dụng sản phẩm mật mã để bảo vệ thông tin bí mật nhà nước.
+        </div>
+      </div>
       {/* 🧊 Nền động hologram */}
       <div className="cubes">
         {Array.from({ length: 10 }).map((_, i) => (
@@ -104,17 +110,17 @@ function App() {
               {
                 img: "/images/product1.jpg",
                 title: "Security Calendar",
-                desc: "Quà tặng giúp bạn truy cập kiến thức về an toàn mạng.",
+                desc: "Kiểm soát kế hoạch, thời gian và giúp nâng cao kiến thức bảo mật cho người thân.",
               },
               {
                 img: "/images/product2.jpg",
-                title: "Nội Dung",
+                title: "Gift Card",
                 desc: "Khám phá cách bảo vệ dữ liệu cá nhân trong thời đại số.",
               },
               {
                 img: "/images/product3.jpg",
                 title: "Giải Pháp phòng tránh",
-                desc: "Món quà ý nghĩa giúp nâng cao kiến thức bảo mật cho người thân.",
+                desc: "Đơn giản, dễ hiểu",
               },
             ].map((item, i) => (
               <div
