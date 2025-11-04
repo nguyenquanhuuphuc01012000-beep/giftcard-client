@@ -213,13 +213,13 @@ body::-webkit-scrollbar-thumb:hover {
   border: 2px solid transparent;  /* Khung trong suốt để dễ dàng thêm hiệu ứng */
   background-image: linear-gradient(to right, #1e3a8a, #00064e, #0019a3, #190097); /* Màu nền của khung như nền gradient */
   background-clip: padding-box; /* Đảm bảo nền không lan ra ngoài khung */
-  border-radius: 10px; /* Tạo bo góc cho khung */
+  border-radius: 5px; /* Tạo bo góc cho khung */
 }
 
 .marquee-content {
   display: inline-block;
   white-space: nowrap;
-  animation: marquee 60s linear infinite;  /* Điều chỉnh thời gian để dòng chữ chạy hết */
+  animation: marquee 66s linear infinite;  /* Điều chỉnh thời gian để dòng chữ chạy hết */
   padding-left: 100%;
 }
 
@@ -228,7 +228,7 @@ body::-webkit-scrollbar-thumb:hover {
     transform: translateX(100%);  /* Bắt đầu ngoài màn hình */
   }
   100% {
-    transform: translateX(-400%);  /* Kết thúc ở ngoài màn hình bên trái */
+    transform: translateX(-515%);  /* Kết thúc ở ngoài màn hình bên trái */
   }
 }
 
